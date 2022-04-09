@@ -7,6 +7,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
   height: 120px;
+  box-shadow: 0 14px 28px rgba(168, 172, 176, 0.19),
+    0 10px 10px rgba(168, 172, 176, 0.19);
+  padding: 10px;
 }
 .currency_info li {
   display: inline-block;
