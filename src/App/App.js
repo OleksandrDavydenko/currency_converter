@@ -7,6 +7,7 @@ import "./App.css";
 
 function App() {
   const [currencies, setCurrensies] = useState();
+
   const onSuccess = (data) => {
     function SortArray(x, y) {
       return x.txt.localeCompare(y.txt);
