@@ -8,6 +8,15 @@ import "./App.css";
 function App() {
   const [currencies, setCurrensies] = useState();
   const onSuccess = (data) => {
+    function SortArray(x, y) {
+      return x.txt.localeCompare(y.txt);
+    }
+
+    data.sort(SortArray);
+
+    const UAH = { cc: "UAH", r030: 980, rate: 1, txt: "Українська гривня" };
+    data.unshift(UAH);
+
     setCurrensies(data);
   };
 

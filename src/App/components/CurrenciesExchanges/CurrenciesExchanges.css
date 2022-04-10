@@ -16,13 +16,16 @@
   border-radius: 5px;
   width: 50%;
 }
+.converter_select:hover {
+  cursor: pointer;
+}
 .input_view {
   height: 100%;
   border: 1px solid #282c34;
   width: 40%;
   font-size: 15px;
   outline: none;
-  margin-right: 15px;
+  margin-left: 15px;
 
   border-radius: 5px;
 }
@@ -33,4 +36,9 @@
   height: 50px;
   width: 100%;
   margin-top: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
